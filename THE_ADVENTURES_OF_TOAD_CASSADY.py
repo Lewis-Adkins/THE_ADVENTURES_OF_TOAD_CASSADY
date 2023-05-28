@@ -14,7 +14,7 @@ import numpy as np
 import time
 from sys import exit
 
-path='/Users/Lewis/OneDrive/Documents/PyGames/TAOTC/'
+path=''
 
 pygame.init()
 WIDTH             = 1000
