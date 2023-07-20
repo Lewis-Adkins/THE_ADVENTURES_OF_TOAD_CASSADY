@@ -14,7 +14,7 @@ import numpy as np
 import time
 from sys import exit
 
-path=''
+path='/Users/Lewis/OneDrive/Documents/PyGames/TAOTC/'
 
 pygame.init()
 WIDTH             = 1000
@@ -1238,7 +1238,7 @@ def end_screen_5():
     
     font = pygame.font.Font(path+'Font/Pixeltype.ttf', 36)                    # FONT
     
-    end_5_text = "THANKS FOR PLAYING!!!"                                      # MESSAGE
+    end_5_text = "HAPPY BELATED 6 MONTHS!!! I LOVE YOU <3"                                      # MESSAGE
     screen.fill('green')                                                      # SCREEN COLOR
     draw_text(end_5_surface, end_5_text, font, 'blue', WIDTH// 2, HEIGHT// 2) # TEXT
   
